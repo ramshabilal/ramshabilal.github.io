@@ -28,5 +28,20 @@ button.addEventListener('click', function onClick() {
 
 title.style.transition = "all 2s";
 
+let button2 = document.getElementById("button2");
+
+let index2 = 0;
+
+const colors2 = ['red', 'lightgrey'];
+
+button2.addEventListener('click', function onClick() {
+    button2.style.backgroundColor = colors2[index2];
+    button2.style.color = 'white';
+
+    index2 = index2 >= colors.length - 1 ? 0 : index2 + 1;
+});
+
+title.style.transition = "all 2s";
+
 
 

@@ -10,7 +10,6 @@
     box-shadow: 0 0.3125rem 0.3125rem 0 rgb(0 0 0 / 15%);
     background-color: rgb(211,211,211,0.5);
     text-align: center;
-    /* */
 }
 .header-text {
     font-weight: bold;
@@ -24,6 +23,20 @@
     /*"Gotham SSm A","Gotham SSm B";*/
     line-height: 1.625;
     color: #57068c;
+}
+
+.footer {
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: lightgrey;
+    box-shadow: 0 0.3125rem 0.3125rem 0 rgb(0 0 0 / 15%);
+    background-color: rgb(192,192,192,0.2);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
 }
 .pagetitle {
     font-family: Arial;
@@ -167,8 +180,11 @@ a slider to control the look of the page
 }
 
 .buttons{
-    margin-left:48%; 
+    margin-left:45%; 
     margin-bottom: 40px; 
     height:35px;
     width:65px; 
-}
+    font-weight:500; 
+    font-size:18px; 
+   }
+
