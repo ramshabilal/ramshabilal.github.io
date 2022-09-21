@@ -1,44 +1,44 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <meta charset="utf-8" />
-    <title>Life of the NYUAD Cats</title>
+    <title>Life of the NYUAD Cats . Home</title>
     <link rel="stylesheet" href="StyleSheet1.css" />
 </head>
-<body class="body">
 
+<body>
+
+    <!--Below code to create the header and header text (applied to each page-->
     <div class="header">
         <div class="header-text"> NYU | ABU DHABI </div>
-        <!-- ------------------------------- -->
-        <!--Home, Team, About, Contact-->
-        <!-- All of the html goes here -->
-        <!-- This is the Heading of the Page, used as an icon -->
+        <!--Below code to create the links between the home, team, and about page-->
         <!-- Took inspiration from bitdegree.org, suggested by Katie (link is here: https://www.bitdegree.org/learn/css-link-color) -->
         <div class="links">
             <a href="index.html" id="Home">Home</a>
             <a href="Team.html" id="Team">Team</a>
             <a href="About.html" id="About">About</a>
-            <!--  <a href="Resources.html" id="Resources">Resources</a>-->
-
         </div>
-        <!-- ------------------------------- -->
+        <!---------------------------------------------------------------------------------------------------------------------------->
     </div>
 
-    <div class="module darken">
+    <!--Below code to create the page title with an image of the NYUAD Campus in the back-->
+    <div class="module">
         <p id="title" class="pagetitle" style="color:white">
+            <!--some inline styles added-->
             NYUAD CATS GET REAL ABOUT CAMPUS LIFE
         </p>
+
+        <!--Below code is to create ghost text that will appear on certain actions performed by the user-->
         <p id="ghost-text" style="margin-top:80px; color:black; font-size:22px; font-style:italic; text-align:center;
-            text-shadow:none; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                text-shadow:none; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
         </p>
         <p id="ghost-text3" style="color:black; font-size:22px; font-style:italic; text-align:center;
-            text-shadow:none; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                text-shadow:none; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
         </p>
-
     </div>
-
     <br />
+    <!--Below code to insert the film and center it on the page aling with like and subscribe buttons below it-->
     <div>
         <center>
             <video id="vid" controls class="video" style="margin-top:150px; ">
@@ -50,18 +50,16 @@
         <button id="button" class="buttons">   Like   </button>
         <button id="button2" style="margin: 20px; height: 35px; font-weight: 500; font-size: 18px; ">Subscribe</button>
     </div>
-
-    <div class="footer">
-        <p>
-            <br />Contact Us:
-        </p> 
-        <p>
-            Location: New York University, Saadiyat Marina Distict, Abu Dhabi, UAE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: +971 565456000
-        </p>
-    </div>
-
-
-
-    <script src="script.js"></script>
+    <!--Below code to create the footer of the website with contact information (applied to each page)-->
+        <div class="footer">
+            <p>
+                <br />Contact Us:
+            </p>
+            <p>
+                Location: New York University, Saadiyat Marina Distict, Abu Dhabi, UAE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: +971 565456000
+            </p>
+        </div>
+    <!-------------------------------------------------------------------------------------------------->
+        <script src="script.js"></script>
 </body>
 </html>
